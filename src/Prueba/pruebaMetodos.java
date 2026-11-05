@@ -14,7 +14,6 @@ public class pruebaMetodos {
 		System.out.println("Opción 4: |||||||||");
 		
 		int pelo = in.nextInt();
-		dibujarPelo(pelo);
 		
 		System.out.println("Elige ojos, introduciendo un número de 1-4: ");
 		System.out.println("Opción 1: |  o o  |");
@@ -23,7 +22,6 @@ public class pruebaMetodos {
 		System.out.println("Opción 4: | \\ / |");
 		
 		int ojos = in.nextInt();
-		dibujarOjos(ojos);
 	
 		System.out.println("Elige orejas/nariz, introduciendo un número de 1-4: ");
 		System.out.println("Opción 1: @ J @");
@@ -32,7 +30,6 @@ public class pruebaMetodos {
 		System.out.println("Opción 4: < - >");
 		
 		int oreja = in.nextInt();
-		dibujarOreja(oreja);
 		
 		System.out.println("Elige boca, introduciendo un número de 1-4: ");
 		System.out.println("Opción 1: | === |");
@@ -41,7 +38,6 @@ public class pruebaMetodos {
 		System.out.println("Opción 4: | --- |");
 		
 		int boca = in.nextInt();
-		dibujarBoca(boca);
 		
 		System.out.println("Elige barbilla, introduciendo un número de 1-4: ");
 		System.out.println("Opción 1: \\_______/");
@@ -50,9 +46,7 @@ public class pruebaMetodos {
 		System.out.println("Opción 4: \\mmmmmmm/");
 		
 		int barbilla = in.nextInt();
-		dibujarBarbilla(barbilla);
-		
-		
+			
 		System.out.println("Tu robot es");
 		System.out.println(dibujarPelo(pelo));
 		System.out.println(dibujarOjos(ojos));
